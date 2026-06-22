@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactoryka"
+		},
+		"ls_adls_input_accountKey": {
+			"value": ""
+		},
+		"ls_adls_output_accountKey": {
+			"value": ""
+		},
+		"ls_azuresql_input_password": {
+			"value": ""
+		},
+		"ls_blob_output_connectionString": {
+			"value": ""
+		},
+		"ls_adls_input_properties_typeProperties_url": {
+			"value": "https://adlssaka.dfs.core.windows.net/"
+		},
+		"ls_adls_output_properties_typeProperties_url": {
+			"value": "https://adlssaka.dfs.core.windows.net/"
+		},
+		"ls_azuresql_input_properties_typeProperties_server": {
+			"value": "sqlserverjune22.database.windows.net"
+		},
+		"ls_azuresql_input_properties_typeProperties_database": {
+			"value": "TestDB"
+		},
+		"ls_azuresql_input_properties_typeProperties_userName": {
+			"value": "adminka"
+		}
+	}
+}
