@@ -1,0 +1,15 @@
+{
+	"name": "datafactoryka",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "29e51e59-5731-4c03-836c-489e6823bd17",
+		"tenantId": "aacf7471-d69c-4e36-bd25-fb8d8d970c3b"
+	}
+}
